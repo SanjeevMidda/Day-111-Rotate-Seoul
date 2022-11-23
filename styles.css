@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(pink,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.one{
+
+}
+
+.two{
+padding-bottom: 20px;
+}
+
+.three{
+padding-top: 30px;
+}
+
+.four{
+padding-bottom: 10px;
+}
+
+.five{
+padding-top: 20px;
+}
+
+.six{
+    padding-bottom: 5px;
+}
+
+.seven{
+padding-top: 10px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(green,blue);
+    transform: rotate(-70deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:900px;
+    top:100px;
+}
+
+h3{
+    color: white;
+}
